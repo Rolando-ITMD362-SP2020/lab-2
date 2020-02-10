@@ -1,14 +1,43 @@
-{
-  "onSave": true,
-  "javascript": {
-    "indent_size": 2, "indent_char": " ", "eol": "auto", "preserve_newlines": true, "break_chained_methods": false, "max_preserve_newlines": 0, "space_in_paren": false, "space_in_empty_paren": false, "jslint_happy": false, "space_after_anon_function": false, "keep_array_indentation": false, "space_before_conditional": true, "unescape_strings": false, "wrap_line_length": 0, "e4x": false, "end_with_newline": false, "comma_first": false, "brace_style": "collapse-preserve-inline"
-  }
-  ,
-  "css": {
-    "indent_size": 2, "indentCharacter": " ", "indent_char": " ", "selector_separator_newline": true, "end_with_newline": false, "newline_between_rules": true, "eol": "\n"
-  }
-  ,
-  "html": {
-    "indent_inner_html": false, "indent_size": 2, "indent_char": " ", "indent_character": " "
+html {
+  line-height: 1.2em;
+  font-family: tahoma;
+  font-size: 1em;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1em;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+li {
+  padding-top: 1em;
+}
+
+label {
+  display: block;
+  background-color: #66ccff;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 95%
+}
+
+@media screen and (min-width: 1200px) {
+  label {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    margin-right: 5px;
+    font-size: 1.3em;
   }
 }
