@@ -21,6 +21,7 @@ li {
 }
 
 label {
+  padding-bottom: 0.25em;
   display: block;
   background-color: #66ccff;
   text-align: center;
