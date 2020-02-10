@@ -1,9 +1,10 @@
 html {
   line-height: 1.2em;
-  font-family: tahoma;
-  font-size: 1em;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 1.2em;
   -webkit-overflow-scrolling: touch;
   margin-top: 1em;
+  background-color: mintcream;
 }
 
 h1 {
@@ -29,7 +30,7 @@ label {
 input {
   display: block;
   margin: auto;
-  width: 95%
+  width: 95%;
 }
 
 @media screen and (min-width: 1200px) {
