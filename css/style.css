@@ -23,7 +23,6 @@ li {
 label {
   padding-bottom: 0.25em;
   display: block;
-  background-color: #66ccff;
   text-align: center;
 }
 
@@ -36,8 +35,7 @@ input {
 @media screen and (min-width: 1200px) {
   label {
     display: inline-block;
-    color: white;
-    background-color: red;
+    padding-left: 1.75em;
     margin-right: 5px;
     font-size: 1.3em;
   }
